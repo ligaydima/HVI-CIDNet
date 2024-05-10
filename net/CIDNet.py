@@ -67,7 +67,7 @@ class CIDNet(nn.Module):
         self.I_LCA5 = I_LCA(ch3, head3)
         self.I_LCA6 = I_LCA(ch2, head2)
         
-        self.trans = RGB_HVI().cuda()
+        self.trans = RGB_HVI()
         
     def forward(self, x):
         dtypes = x.dtype
