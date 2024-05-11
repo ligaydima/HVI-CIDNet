@@ -1,4 +1,4 @@
-Cython>=0.29.14
+Cython
 arch==5.3.1
 image_quality==1.2.7
 lpips==0.1.4
